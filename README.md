@@ -259,7 +259,7 @@ git push -u origin master
 ---
 
 📘 **Material didático criado para aulas de introdução à programação – HTML Básico**
-👨‍🏫 Professor: *[Seu Nome Aqui]*
+👨‍🏫 Professor: *[Pedro Figueiredo]*
 📅 Ano: 2025
 
 
