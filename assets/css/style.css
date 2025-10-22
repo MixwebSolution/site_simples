@@ -10,13 +10,13 @@ body {
 header {
     background: #0077cc;            /* Fundo azul para o cabeçalho */
     color: #fff;                    /* Cor branca para o texto */
-    display: flex;                     /* Layout em linha com Flexbox */
-    align-items: center;               /* Centraliza os itens verticalmente */
-    justify-content: space-between;    /* Espaça o logo e a navegação */
-    padding: 10px 40px;                /* Espaçamento interno: 10px em cima/baixo, 40px nas laterais */
+    display: flex;                    /* Layout em linha com Flexbox */
+    align-items: center;              /* Centraliza os itens verticalmente */
+    justify-content: space-between;   /* Espaça o logo e a navegação */
+    padding: 10px 40px;               /* Espaçamento interno: 10px em cima/baixo, 40px nas laterais */
 }
 
 /* Logo alinhada à esquerda */
 .logo {
-    width: 100px;                       /* Largura fixa da imagem da logo */
+    width: 100px;                     /* Largura fixa da imagem da logo */
 }
