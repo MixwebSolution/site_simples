@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, sans-serif;     /* Define a fonte padrão para todo o site */
-    margin: 0;                          /* Remove margens externas do body */
-    padding: 0;                         /* Remove preenchimento interno */
-    background: #f4f4f4;              /* Cor de fundo cinza-claro */
-    color: #333;                      /* Cor do texto (cinza escuro) para boa legibilidade */
+    font-family: Arial, sans-serif;         /* Define a fonte padrão para todo o site */
+    margin: 0;                              /* Remove margens externas do body */
+    padding: 0;                             /* Remove preenchimento interno */
+    background: #f4f4f4;                  /* Cor de fundo cinza-claro */
+    color: #333;                          /* Cor do texto (cinza escuro) para boa legibilidade */
 }
 
 /* Cabeçalho */
