@@ -7,8 +7,64 @@ body{
     color: #333;
 }
 
-/*cabeçalho*/
-header{
-    
+/* Cabeçalho */
+header {
+    background: #0077cc;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
 }
 
+/* Logo alinhada à esquerda */
+.logo{
+    width: 150px;
+}
+
+/* Navegação alinhada à direita */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white  /*#fff*/;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+.ativo {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* duas imagem  */
+.container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.imagem {
+    width: 48%; /* para caberem lado a lado */
+    height: auto;
+    padding: 15px;
+}
+
+/* Rodapé fixo */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
