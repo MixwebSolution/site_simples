@@ -1,70 +1,22 @@
-/*corpo*/
-body{
-    font-family: arial ,sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
-    color: #333;
+body {
+    font-family: Arial, sans-serif;     /* Define a fonte padrão para todo o site */
+    margin: 0;                          /* Remove margens externas do body */
+    padding: 0;                         /* Remove preenchimento interno */
+    background: #f4f4f4;              /* Cor de fundo cinza-claro */
+    color: #333;                      /* Cor do texto (cinza escuro) para boa legibilidade */
 }
 
 /* Cabeçalho */
 header {
-    background: #0077cc;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
+    background: #0077cc;            /* Fundo azul para o cabeçalho */
+    color: #fff;                    /* Cor branca para o texto */
+    display: flex;                     /* Layout em linha com Flexbox */
+    align-items: center;               /* Centraliza os itens verticalmente */
+    justify-content: space-between;    /* Espaça o logo e a navegação */
+    padding: 10px 40px;                /* Espaçamento interno: 10px em cima/baixo, 40px nas laterais */
 }
 
 /* Logo alinhada à esquerda */
-.logo{
-    width: 150px;
-}
-
-/* Navegação alinhada à direita */
-nav {
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: white  /*#fff*/;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover,
-.ativo {
-    text-decoration: underline;
-}
-
-/* Conteúdo principal */
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-/* duas imagem  */
-.container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-}
-
-.imagem {
-    width: 48%; /* para caberem lado a lado */
-    height: auto;
-    padding: 15px;
-}
-
-/* Rodapé fixo */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.logo {
+    width: 100px;                       /* Largura fixa da imagem da logo */
 }
