@@ -1,4 +1,7 @@
 
+/* ======= Layout principal ======= */
+
+/* Estilos gerais para o corpo da página */
 body {
     font-family: Arial, sans-serif;         /* Define a fonte padrão para todo o site */
     margin: 0;                              /* Remove margens externas do body */
@@ -20,4 +23,33 @@ header {
 /* Logo alinhada à esquerda */
 .logo {
     width: 100px;                     /* Largura fixa da imagem da logo */
+}
+
+/* Estilo para os links dentro da tag <nav> */
+nav a {
+    color: #fff;            /* Cor do texto branca  #fff*/
+    margin: 0 15px;           /* Espaçamento horizontal entre os links */
+    text-decoration: none;    /* Remove o sublinhado padrão dos links */
+}
+
+/* Estilo quando o link é passado com o mouse (hover) ou quando tem a classe .ativo */
+nav a:hover, .ativo {
+    text-decoration: underline;  /* Adiciona sublinhado */
+}
+
+/* Estilo para o conteúdo principal da página */
+main {
+    padding: 20px;           /* Espaçamento interno */
+    text-align: center;      /* Centraliza o texto */
+}
+
+/* Estilo para o rodapé da página */
+footer {
+    background: #000;      /* Cor de fundo escura (cinza quase preto) */
+    color: #fff;           /* Cor do texto branca */
+    text-align: center;      /* Centraliza o texto */
+    padding: 10px;           /* Espaçamento interno */
+    position: fixed;         /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0;               /* Posiciona no fundo da janela */
+    width: 100%;             /* Faz o rodapé ocupar toda a largura */
 }

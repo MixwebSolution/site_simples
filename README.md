@@ -237,8 +237,13 @@ Ele é a base da web e é usado junto com:
 
 ---
 
-## 🧰 Comandos Git úteis
+## Link 
 
+```bash
+https://www.w3schools.com/cssref/css_colors.php
+```
+
+## 🧰 Comandos Git úteis
 ```bash
 # Inicia um repositório
 git init
